@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="GhostShell.png" alt="GhostShell" width="300">
-</p>
+┌─────────────────────┐
+│█████████████████████│
+│      GHOST SHELL                  │
+│█████████████████████│
+└─────────────────────┘
 # GhostShell
 
  Reverse Shell / C2 Simulation and the Limits of Log-Based Detection
