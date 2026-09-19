@@ -1,21 +1,6 @@
-
-             .-""""-.
-           .'  .--.  '.
-          /   /    \   \
-         |   |  ◉ ◉ |   |
-         |   |   >  |   |
-          \   \____/   /
-           '._      _.'
-              |____|
-           ___/    \___
-        .-'            '-.
-       /   G H O S T      \
-      |      S H E L L      |
-       \____________________/
-            │  │  │
-        ────┴──┴──┴────
-          // 4444 //
-
+<p align="center">
+  <img src="GhostShell.jpeg" alt="GhostShell" width="400">
+</p>
 # GhostShell
 
  Reverse Shell / C2 Simulation and the Limits of Log-Based Detection
