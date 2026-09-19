@@ -1,9 +1,8 @@
-┌        GHOST SHELL
-       ╱──────────╲
-      │   ◉  ◉     │
-      │     >_     │
-       ╲──────────╱
-          ╱  ╲
+┌─────────────────────┐
+│█████████████████████│
+│     GHOST SHELL     │
+│█████████████████████│
+└─────────────────────┘
 # GhostShell
 
  Reverse Shell / C2 Simulation and the Limits of Log-Based Detection
