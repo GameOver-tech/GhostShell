@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="GhostShell.png" alt="GhostShell" width="300">
+</p>
 
 # GhostShell
 
